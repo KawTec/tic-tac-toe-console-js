@@ -4,7 +4,8 @@ let currentPlayer = "🐯";
 let gameIsActive = true;
 
 function displayBoard() {
-    console.log(`${gameBoard[0]} | ${gameBoard[1]} | ${gameBoard[2]}
+    console.log(`
+    ${gameBoard[0]} | ${gameBoard[1]} | ${gameBoard[2]}
     ------------
     ${gameBoard[3]} | ${gameBoard[4]} | ${gameBoard[5]}
     ------------
@@ -31,7 +32,7 @@ function handleMove(position) {
         gameIsActive = false;
         return true;
     }
-    currentPlayer = currentPlayer === "🐯" ? "🐻‍❄️" : "🐯";
+    currentPlayer = currentPlayer === "🐯" ? "🍖" : "🐯";
     return true;
 }
 
