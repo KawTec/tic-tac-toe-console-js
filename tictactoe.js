@@ -49,10 +49,16 @@ function checkWin() {
 
 while(gameIsActive) {
     displayBoard();
-    const move = parseInt(prompt(`Player ${currentPlayer}, enter your move (0-8): `));
-    if(move >= 0 && move <= 8) {
-        handleMove(move);
+    const input = prompt(`Player ${currentPlayer}, enter your move (0-8) or 'q' to quit: `);
+    if(input.toLowerCase() === "q") {
+        console.log("Game exited by player.");
+        gameIsActive = false;
+        break;
+    }
+    if(input >= 0 && input <= 8) {
+        handleMove(parseInt(input));
     } else {
         console.log("Invalid input. Please enter a number between 0 and 8.");
     }
 }
+console.log("Thanks for playing!");
