@@ -96,16 +96,18 @@ node tictactoe.js
 
 ## Example prompt
 
+
+
 Player 🐯, enter your move (0-8) or 'q' to quit:
 
-Example Board
-
+### Example Board
+```
 🐯 |   | 🍖
 ------------
-  | 🐯 |  
+    |🐯|  
 ------------
-  |   | 🍖
-
+    |   | 🍖
+```
 ---
 
 ## Learning Objectives
