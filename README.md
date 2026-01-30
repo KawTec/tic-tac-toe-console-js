@@ -7,12 +7,12 @@ This project demonstrates core programming concepts such as control flow, arrays
 
 ## Features
 
-- Play Tic-Tac-Toe directly in the terminal
-- Two-player mode with alternating turns
-- Win detection (rows, columns, diagonals)
-- Draw detection
-- Input validation
-- Option to quit the game at any time
+- Play Tic-Tac-Toe directly in the terminal.
+- Two-player mode with alternating turns.
+- Win detection (rows, columns, diagonals).
+- Draw detection.
+- Input validation.
+- Option to quit the game at any time.
 
 ---
 
@@ -94,11 +94,12 @@ node tictactoe.js
 
 ---
 
-## Example prompt:
+## Example prompt
 
 Player 🐯, enter your move (0-8) or 'q' to quit:
 
 Example Board
+
 🐯 |   | 🍖
 ------------
   | 🐯 |  
